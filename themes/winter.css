@@ -173,15 +173,18 @@ button:focus {
     right: auto !important;
 }
 
-/* 界面反转 */
-.content{
+/* 界面反转(可选) */
+
+/* .content{
     flex-direction: row-reverse;
-}
+} */
+
 /* 预览的拖动条,因为反转了,所以要往反方向拉动 */
-.sash-left{
+
+/* .sash-left{
     left:auto !important;
     right:0 !important;
-}
+} */
 
 /* 左侧目录 */
 

@@ -1,14 +1,22 @@
 {
-  "name": "@yank-note/theme-yanser",
+  "name": "yank-note-extension-theme-yanser",
   "version": "1.0.0",
   "displayName": "theme｜Yanser",
   "description": "theme from Yanser",
   "displayName_ZH-CN": "主题｜烟舍",
   "description_ZH-CN": "来自烟舍的主题",
-  "author": "Yanser",
-  "license": "MIT",
+  "author": "yanser",
+  "license": "AGPL-3.0",
   "keywords": [],
   "homepage": "https://github.com/Yannnser/yank-note-theme.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yannnser/yank-note-theme.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "icon": "./icon.png",
   "engines": {
     "node": ">=14.6.0",
