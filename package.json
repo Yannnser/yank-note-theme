@@ -1,11 +1,11 @@
 {
   "name": "yank-note-extension-theme-yanser",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "displayName": "theme｜Yanser",
   "description": "theme from Yanser",
   "displayName_ZH-CN": "主题｜烟舍",
   "description_ZH-CN": "来自烟舍的主题",
-  "author": "yanser",
+  "author": "Yanser",
   "license": "AGPL-3.0",
   "keywords": [],
   "homepage": "https://github.com/Yannnser/yank-note-theme.git",

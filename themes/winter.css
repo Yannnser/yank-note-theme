@@ -4,7 +4,6 @@ body,
 article {
     color: #adb9c4 !important;
     background-color: #343749 !important;
-    font-family: Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
     font-size: 16px;
     letter-spacing: 0.861px !important;
 }
@@ -163,21 +162,6 @@ button:focus {
     color: #414650;
     font-weight: 600;
 }
-
-/* 大纲按钮-放到了预览界面的左上角(如果有待办进度条就隐藏了,但能用) */
-.outline{
-    top:0 !important;
-}
-
-.outline,.action-bar,.scroll-to-top{
-    right: auto !important;
-}
-
-/* 界面反转(可选) */
-
-/* .content{
-    flex-direction: row-reverse;
-} */
 
 /* 预览的拖动条,因为反转了,所以要往反方向拉动 */
 
