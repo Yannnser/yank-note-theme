@@ -42,8 +42,33 @@ table {
     background: #2a2d3d !important;
 }
 
-.minimap.slider-mouseover {
-    opacity: .6;
+/* .minimap.slider-mouseover {
+    opacity: .9;
+} */
+
+
+.editor .tabs {
+  background: #242431 !important;
+}
+
+.editor .tab.current,.status-bar{
+  background-color: #535966 !important;
+}
+
+.editor .tab {
+  background: #3b3b4d !important;
+}
+
+.monaco-editor .minimap-shadow-visible {
+  box-shadow: #00000073 -6px 0 6px -6px inset !important;
+}
+
+.minimap-decorations-layer {
+  background-color: rgb(85 85 128 / 40%);
+}
+
+.main>.left{
+  background: #2c2c38 !important;
 }
 
 .markdown-view .markdown-body pre,
@@ -588,11 +613,11 @@ input[type="checkbox"] {
 .markdown-body .task-list-item {
     list-style-type: none;
   }
-  
+
   .markdown-body .task-list-item+.task-list-item {
     margin-top: 3px;
   }
-  
+
   .markdown-body .task-list-item input {
     margin: 0 .2em .25em -1.6em;
     vertical-align: middle;
@@ -610,3 +635,5 @@ input[type="checkbox"] {
     margin-top: 0;
     margin-bottom: 16px;
 }
+
+
