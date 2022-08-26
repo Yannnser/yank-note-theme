@@ -14,3 +14,9 @@
 ![Image](https://s1.ax1x.com/2022/05/18/OoT4Wq.png)
 ![Image](https://s1.ax1x.com/2022/05/18/OoTLTJ.png)
 
+## dark
+注意：此主题为深色主题，请开启深色模式后再继续使用。
+### 预览
+![Image](https://s1.ax1x.com/2022/08/26/v26mNt.png)
+![Image](https://s1.ax1x.com/2022/08/26/v26eAI.png)
+
