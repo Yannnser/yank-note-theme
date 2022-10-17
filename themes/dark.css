@@ -646,7 +646,7 @@ input[type="checkbox"] {
 }
 
 .markdown-body pre > code {
-  font-size: 100%;
+  font-size: 16px;
   white-space: pre;
   background: transparent;
   border: 0;
@@ -754,3 +754,7 @@ div .je-table {
     border-left: 1px solid #36393fde;
 } */
 
+/* 3.40.3 */
+.markdown-view .markdown-body pre code {
+  color: #adb9c4;
+}
