@@ -12,7 +12,7 @@ article {
     line-height: 1.618 ;
 }
 
-html[app-theme=system] .markdown-body mark{
+html[app-theme="system"] .markdown-body mark{
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 1px;
@@ -83,7 +83,7 @@ table {
     background-color: #2a2d3d !important;
 }
 .markdown-view .markdown-body table.hljs-ln td.hljs-ln-numbers{
-    box-shadow:none;
+    box-shadow:none !important;
 }
 
 
@@ -92,11 +92,11 @@ table {
 .markdown-view .markdown-body .table-wrapper>table td:hover,
 .markdown-view .markdown-body .table-wrapper>table th:hover,
 .markdown-view .markdown-body .custom-container.row > .custom-container-title {
-    background-color: #414650;
+    background-color: #414650 !important;
 }
 
 .markdown-view .markdown-body .custom-container.group .group-item-label:hover {
-    background-color: #343443b8;
+    background-color: #343443b8 !important;
 }
 
 .markdown-view .markdown-body .custom-container.group .group-item-label,
@@ -138,7 +138,7 @@ table {
 
 .markdown-view .markdown-body a,
 body a {
-    color: #aadeeb;
+    color: #aadeeb !important;
 }
 
 .custom-container .tip a {
@@ -264,7 +264,7 @@ button:focus {
 .hljs-selector-attr,
 .hljs-selector-pseudo,
 .hljs-number {
-    color: #ffa689;
+    color: #ffa689 !important;
 }
 
 .hljs-string,
@@ -272,7 +272,7 @@ button:focus {
 .hljs-addition,
 .hljs-attribute,
 .hljs-meta .hljs-string {
-    color: #69cbd7;
+    color: #69cbd7 !important;
 }
 
 /* 待办框重画 */
@@ -307,7 +307,7 @@ input[type="checkbox"] {
 
 /* 代码复制按钮 */
 .markdown-view .markdown-body .p-mcc-copy-btn{
-    right: 20px;
+    right: 20px !important;
    }
 
 /* 消除首尾边距 */
@@ -394,6 +394,11 @@ input[type="checkbox"] {
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
     font-size: 12px;
 }
+
+.markdown-view .markdown-body .p-mcc-copy-btn-wrapper{
+  float: none !important;
+}
+
 
 .markdown-body .task-list-item {
     list-style-type: none;
