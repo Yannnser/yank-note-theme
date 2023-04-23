@@ -37,7 +37,7 @@ table {
 
 .mermaid-wrapper,
 .km-view {
-    background: #30363f !important;
+  background: #30363f !important;
 }
 
 /* .minimap.slider-mouseover {
@@ -119,7 +119,8 @@ table {
 .markdown-view .markdown-body .custom-container.tip {
   color: #9dcac0 !important;
 } */
-.markdown-view .markdown-body .custom-container.group .group-item-label, .markdown-view .markdown-body .custom-container.tip {
+.markdown-view .markdown-body .custom-container.group .group-item-label,
+.markdown-view .markdown-body .custom-container.tip {
   color: #9dc1ca !important;
 }
 
@@ -286,6 +287,7 @@ button:focus {
 
 .mtk6 {
   color: #69cbd7 !important;
+  /* color: #3dc9b0 !important; */
 }
 
 .mtk7 {
@@ -335,7 +337,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
   background-color: rgb(94 196 165 / 20%) !important;
 }
 
-.markdown-view .markdown-body .preview-highlight {
+body .markdown-view .markdown-body .preview-highlight {
   background-color: #ec8f8f !important;
   outline: 1px solid #ec8f8f !important;
   color: #121c16 !important;
@@ -352,6 +354,8 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]) {
 .hljs-number {
   color: #ffa689 !important;
 }
+
+
 
 .hljs-string,
 .hljs-regexp,
@@ -478,7 +482,7 @@ input[type="checkbox"] {
   font-size: 12px;
 }
 
-.markdown-view .markdown-body .p-mcc-copy-btn-wrapper{
+.markdown-view .markdown-body .p-mcc-copy-btn-wrapper {
   float: none !important;
 }
 
@@ -746,7 +750,6 @@ span.mtkcontrol {
 div .je-table {
   border-bottom: none !important;
 }
-
 
 /** 自用 **/
 

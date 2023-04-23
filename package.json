@@ -1,6 +1,6 @@
 {
   "name": "yank-note-extension-theme-yanser",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "displayName": "theme｜Yanser",
   "description": "theme from Yanser",
   "displayName_ZH-CN": "主题｜烟舍",
@@ -20,16 +20,20 @@
   "icon": "./icon.png",
   "engines": {
     "node": ">=14.6.0",
-    "yank-note": "^3.30.1"
+    "yank-note": "^3.45.0"
   },
   "themes": [
     {
-      "name": "winter",
+      "name": "winter｜废弃｜下个版本删除",
       "css": "./themes/winter.css"
     },
     {
-      "name": "dark",
+      "name": "dark｜废弃｜下个版本删除",
       "css": "./themes/dark.css"
+    },
+    {
+      "name": "dream｜最新｜往后主要版本",
+      "css": "./themes/dream.css"
     }
   ],
   "files": [
@@ -53,7 +57,7 @@
     "@vitejs/plugin-vue": "^2.3.2",
     "@vue/eslint-config-standard": "^6.1.0",
     "@vue/eslint-config-typescript": "^10.0.0",
-    "@yank-note/runtime-api": "^3.30.0",
+    "@yank-note/runtime-api": "^3.45.0",
     "conventional-changelog-cli": "^2.2.2",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.26.0",

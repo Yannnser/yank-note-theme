@@ -1,22 +1,20 @@
-# 主题
+# 2.0.0 (2023-4-23) !!! 重要 !!! !!! 重要 !!! !!! 重要 !!!
+其实新的主题早在2022年11月26日就已经改动完成了，但是忘记发布了(笑哭)。后续因为一些原因没有继续使用Yank Note，所以也一直没有更新，最近想起来就回归了。
+因为当时改动的YankNote版本是3.45.0，距离现在3.52.0有不少区别，原先的一些样式也不再适用，我对原先的主题再做了一些改动以适应现在的版本，希望你们喜欢。
 
-## 使用
-![Image](https://s1.ax1x.com/2022/05/18/OT0PfA.png)
-## winter
+# 注意!!!
+## 因近几个版本的布局和界面变化较大，原两个主题已落后多次更新。精力有限难以同时维护多个主题，所以决定 **「不再维护 dark 和 winter 主题」**，同时新增 **「dream」** 主题作为往后更新的主要主题。
+
+# 注意!!!
+## 下版本将彻底删除 **「dark」** 和 **「winter」** 主题，如需保存原有样式，请在 **「当前版本（3.52.0）」** 自行到拓展目录下将对应的 css 文件保存。
+
+### 因原主题的停止维护所带来的不便我深感抱歉，希望新的主题能够让大家喜欢。
+
+## 使用方法
+ [![zNmEbd.png](https://s1.ax1x.com/2022/11/26/zNmEbd.png)](https://imgse.com/i/zNmEbd)
+
+## dream
 注意：此主题为深色主题，请开启深色模式后再继续使用。
 ### 预览
-![Image](https://s1.ax1x.com/2022/05/18/OoT7OU.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTTyT.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTolV.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTIS0.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTbmF.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTqw4.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoT4Wq.png)
-![Image](https://s1.ax1x.com/2022/05/18/OoTLTJ.png)
-
-## dark
-注意：此主题为深色主题，请开启深色模式后再继续使用。
-### 预览
-![Image](https://s1.ax1x.com/2022/08/26/v26mNt.png)
-![Image](https://s1.ax1x.com/2022/08/26/v26eAI.png)
-
+[![zNQWuT.png](https://s1.ax1x.com/2022/11/26/zNQWuT.png)](https://imgse.com/i/zNQWuT)
+[![zNQfDU.png](https://s1.ax1x.com/2022/11/26/zNQfDU.png)](https://imgse.com/i/zNQfDU)

@@ -383,10 +383,10 @@
   resolved "https://registry.npmmirror.com/@vue/shared/-/shared-3.2.33.tgz#69a8c99ceb37c1b031d5cc4aec2ff1dc77e1161e"
   integrity sha512-UBc1Pg1T3yZ97vsA2ueER0F6GbJebLHYlEi4ou1H5YL4KWvMOOWwpYo9/QpWq93wxKG6Wo13IY74Hcn/f7c7Bg==
 
-"@yank-note/runtime-api@^3.30.0":
-  version "3.30.0"
-  resolved "https://registry.npmmirror.com/@yank-note/runtime-api/-/runtime-api-3.30.0.tgz#8e406145cc1378b7a5ca8ec638b9290bcdc2ef87"
-  integrity sha512-JoAgYnodMEAOdjldmVde0mv2PG7mKhXVSepVDoKSHiZ3gBo7tIM9b1Rx4YuoHsl9roQAYkeQWL3jTe+gy9l0yg==
+"@yank-note/runtime-api@^3.45.0":
+  version "3.45.0"
+  resolved "https://mirrors.cloud.tencent.com/npm/@yank-note%2fruntime-api/-/runtime-api-3.45.0.tgz#74dc53bf7de3c675e8d49f6a12e6bbf6f1ea00a3"
+  integrity sha512-xPxcbR01ltHzDbfGD8NkD7YX2kjczfJjFmMUL2g50Rr3cREPZ2FbfHKLc/eaE/46/XSi2mz2AuhTyoH+1AuFGw==
   dependencies:
     fs-extra "^10.1.0"
 
