@@ -56,9 +56,9 @@
   --ys-ui-secondary-rgb: 81, 87, 109;
   --ys-ui-accent-rgb: 81, 87, 109;
 
-  --ys-positive-primary: #5cfae7;
+  --ys-positive-primary: #78D3E9;
   --ys-negative-primary: #f38b7d;
-  --ys-warning-primary: #facaa4;
+  --ys-warning-primary: #EBDFDB;
   --ys-info-primary: #89acff;
 
   --ys-button-primary: var(--ys-text-primary);
@@ -72,8 +72,8 @@
 
   --ys-font-size-primary: 16px;
 
-  --ys-font-family-primary: "MiSans", "HarmonyOS Sans SC", arial, system-ui,
-    Segoe UI, Helvetica, sans-serif;
+  --ys-font-family-primary: system-ui,-apple-system,MacEmoji,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+
 
   --ys-shadow-primary: #0000004d 2px 2px 10px;
 
@@ -308,6 +308,21 @@ body .monaco-editor .cldr.codicon.codicon-folding-collapsed {
   background: rgba(var(--ys-primary-rgb), 0.8) !important;
 }
 
+/* 编辑器 - 顶部导航 */
+.monaco-editor .sticky-widget{
+  background-color:  rgba( var(--ys-text-primary-bg-rgb),0.5) !important;
+  backdrop-filter: var(--ys-backdrop-filter-primary) !important;
+  box-shadow: var(--ys-shadow-primary) !important;
+}
+
+.monaco-editor .sticky-line-content:hover{
+  background-color: var(--ys-primary-bg) !important;
+}
+
+.monaco-editor .sticky-line-number{
+  color: var(--ys-secondary) !important;
+}
+
 /* 编辑器 - 行号 */
 .monaco-editor .line-numbers.active-line-number {
   color: var(--ys-text-primary) !important;
@@ -346,13 +361,31 @@ body .monaco-editor .cldr.codicon.codicon-folding-collapsed {
   color: var(--ys-accent) !important;
 }
 
+.monaco-editor .bracket-highlighting-0,
+.monaco-editor .bracket-highlighting-4{
+  color: var(--ys-accent) !important;
+}
+
+.monaco-editor .bracket-highlighting-1,
+.monaco-editor .bracket-highlighting-5{
+  color: var(--ys-positive-primary) !important;
+}
+
+.monaco-editor .bracket-highlighting-2{
+  color: var(--ys-warning-primary) !important;
+}
+
+.monaco-editor .bracket-highlighting-3{
+  color: var(--ys-info-primary) !important;
+}
+
 /* !!! - 编辑器 - 小地图 */
 .monaco-editor .minimap-shadow-visible {
   box-shadow: #00000073 -6px 0 6px -6px inset !important;
 }
 
 .minimap-decorations-layer {
-  background-color: #3b435761;
+  background-color: #6f7da173;
 }
 
 /* 预览 - 行高｜字距｜按钮｜标签 */
@@ -437,6 +470,47 @@ html[app-theme="system"] .token.cdata {
 .token.keyword,
 .token.builtin {
   color: var(--ys-accent) !important;
+}
+
+/* 预览 - Github Alerts*/
+.markdown-alert.markdown-alert-note .markdown-alert-title{
+  color: var(--ys-info-primary) !important;
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title{
+  color: var(--ys-positive-primary) !important;
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title{
+  color: var(--ys-accent) !important;
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--ys-warning-primary) !important;
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--ys-negative-primary) !important;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--ys-info-primary) !important;
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--ys-positive-primary) !important;
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--ys-accent) !important;
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color:  var(--ys-warning-primary) !important;
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--ys-negative-primary) !important;
 }
 
 /* 预览 - 标签组 */
@@ -597,9 +671,9 @@ html[app-theme="dark"] .markdown-view .markdown-body mark {
   box-shadow: var(--ys-shadow-primary) !important;
 }
 
-.sash-left {
+/* .sash-left {
   border-left: 1px solid var(--ys-border-primary);
-}
+} */
 .sash-left:hover,
 .sash-right:hover {
   background: rgba(var(--ys-primary-rgb), 0.8);
@@ -727,7 +801,7 @@ span.mtkcontrol {
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-  font-family: monospace, monospace;
+  font-family: var(--ys-font-family-primary);
   font-size: 1em;
 }
 
@@ -898,8 +972,7 @@ span.mtkcontrol {
 
 .markdown-body code,
 .markdown-body pre {
-  font-family: Consolas, "MiSans", "HarmonyOS Sans SC", "Courier New", monospace;
-  font-size: 15px;
+ font-size: 15px;
 }
 
 .markdown-body pre {
@@ -1691,7 +1764,7 @@ select:focus {
 }
 
 .view-lines.monaco-mouse-cursor-text {
-  font-family: Consolas, "HarmonyOS Sans SC", "MiSans", "Courier New", monospace !important;
+  font-family:  "Arial","Microsoft YaHei","黑体","宋体", sans-serif, SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
 }
 
 .codicon-find-expanded:before,
@@ -1747,35 +1820,4 @@ select:focus {
 .markdown-view .markdown-body .custom-container.row {
   margin-top: 0px;
   margin-bottom: 16px;
-}
-
-.s {
-  color: var(--ys-primary) !important;
-}
-
-.ys {
-  color: var(--ys-text-primary) !important;
-}
-
-.ss {
-  color: var(--ys-secondary) !important;
-}
-
-.sss {
-  color: var(--ys-accent) !important;
-}
-.一 {
-  color: var(--ys-primary) !important;
-}
-
-.二 {
-  color: var(--ys-secondary) !important;
-}
-
-.三 {
-  color: var(--ys-accent) !important;
-}
-
-.文 {
-  color: var(--ys-text-primary) !important;
 }
