@@ -1,6 +1,6 @@
 {
   "name": "yank-note-extension-theme-yanser",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "displayName": "theme｜Yanser",
   "description": "theme from Yanser",
   "displayName_ZH-CN": "主题｜烟舍",
@@ -24,15 +24,7 @@
   },
   "themes": [
     {
-      "name": "winter｜废弃｜下个版本删除",
-      "css": "./themes/winter.css"
-    },
-    {
-      "name": "dark｜废弃｜下个版本删除",
-      "css": "./themes/dark.css"
-    },
-    {
-      "name": "dream｜最新｜往后主要版本",
+      "name": "dream",
       "css": "./themes/dream.css"
     }
   ],
